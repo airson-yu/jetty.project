@@ -41,10 +41,10 @@
             <configuration>
               <rules>
                 <bannedDependencies>
-                  <includes>
-                    <include>org.eclipse.jetty.websocket:websocket-jetty-api</include>
-                    <include>javax.websocket</include>
-                  </includes>
+                  <excludes>
+                    <exclude>org.eclipse.jetty.websocket:websocket-jetty-api</exclude>
+                    <exclude>javax.websocket</exclude>
+                  </excludes>
                 </bannedDependencies>
               </rules>
             </configuration>
@@ -57,14 +57,14 @@
             <configuration>
               <rules>
                 <bannedDependencies>
-                  <includes>
-                    <include>javax.servlet</include>
-                    <include>servletapi</include>
-                    <include>org.eclipse.jetty.orbit:javax.servlet</include>
-                    <include>org.mortbay.jetty:servlet-api</include>
-                    <include>jetty:servlet-api</include>
-                    <include>jetty-servlet-api</include>
-                  </includes>
+                  <excludes>
+                    <exclude>javax.servlet</exclude>
+                    <exclude>servletapi</exclude>
+                    <exclude>org.eclipse.jetty.orbit:javax.servlet</exclude>
+                    <exclude>org.mortbay.jetty:servlet-api</exclude>
+                    <exclude>jetty:servlet-api</exclude>
+                    <exclude>jetty-servlet-api</exclude>
+                  </excludes>
                 </bannedDependencies>
               </rules>
             </configuration>
