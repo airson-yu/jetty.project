@@ -170,6 +170,7 @@
                     <exclude>jetty-servlet-api</exclude>
                     <exclude>javax.websocket</exclude>
                   </excludes>
+                  <searchTransitive>true</searchTransitive>
                 </bannedDependencies>
               </rules>
             </configuration>
